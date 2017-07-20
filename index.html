@@ -1,25 +1,29 @@
----
-title: "De l'open data au big data"
-libsubtitle: "Culture générale des données"
-author: "Samuel Goëta"
-date: "Saint Mandé, 20 juillet 2017"
-output:
-  xaringan::moon_reader:
-    css: [default, xaringan.css]
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>De l’open data au big data</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Samuel Goëta" />
+    <link href="libs/remark-css-0.0.1/example.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# De l’open data au big data
+### Samuel Goëta
+### Saint Mandé, 20 juillet 2017
 
 ---
+
 class: center, middle
 
-Ces slides en ligne : http://datactivi.st/saintmande-formation/
+Ces slides en ligne : http://datactivi.st/saintmande/
 
 Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
 
-<img src="./img/Logo_DATACTIVIST_TW.png" height="150px" />
+&lt;img src="./img/Logo_DATACTIVIST_TW.png" height="150px" /&gt;
 
 ---
 class:middle, center
@@ -61,27 +65,27 @@ class:center,inverse, middle
 ## [Quantifier, c'est convenir puis mesurer](http://www.pressesdesmines.com/media/extrait/PourSocioHistExtr.pdf)
 
 .pull-left[
-> Le verbe quantifier est employé ici dans un sens large : **exprimer et
+&gt; Le verbe quantifier est employé ici dans un sens large : **exprimer et
 faire exister sous une forme numérique ce qui, auparavant, était exprimé par
 des mots et non par des nombres**. 
 
->En revanche, l’idée de mesure, inspirée de
+&gt;En revanche, l’idée de mesure, inspirée de
 l’épistémologie traditionnelle des sciences de la nature, implique que quelque
 chose existe sous une forme déjà mesurable selon une métrologie réaliste,
 comme la hauteur de la Tour Eiffel. ]
 .pull-right[![ ](img/desrosi.jpeg)]
 ---
 # “Datafication” : la mise en données du monde
-> “L'immense gisement de données numériques découle de la capacité à paramétrer des aspects du monde et de la vie humaine qui n'avaient encore jamais été quantifiés. On peut qualifier ce processus de **« mise en données » (datafication)**. 
+&gt; “L'immense gisement de données numériques découle de la capacité à paramétrer des aspects du monde et de la vie humaine qui n'avaient encore jamais été quantifiés. On peut qualifier ce processus de **« mise en données » (datafication)**. 
 
-> […] “La mise en données désigne autre chose que la numérisation, laquelle consiste à traduire un contenu analogique - texte, film, photographie - en une séquence de 1 et de 0 lisible par un ordinateur. Elle se réfère à une action bien plus vaste, et aux implications encore insoupçonnées : **numériser non plus des documents, mais tous les aspects de la vie**.”
+&gt; […] “La mise en données désigne autre chose que la numérisation, laquelle consiste à traduire un contenu analogique - texte, film, photographie - en une séquence de 1 et de 0 lisible par un ordinateur. Elle se réfère à une action bien plus vaste, et aux implications encore insoupçonnées : **numériser non plus des documents, mais tous les aspects de la vie**.”
 
 .footnote[[Kenneth Cukier, “Mise en données du monde, le déluge numérique”](https://www.monde-diplomatique.fr/2013/07/CUKIER/49318)]
 ---
 # “Datafication” : la mise en données du monde
-> “L'immense gisement de données numériques découle de la capacité à paramétrer des aspects du monde et de la vie humaine qui n'avaient encore jamais été quantifiés. On peut qualifier ce processus de **« mise en données » (datafication)**. 
+&gt; “L'immense gisement de données numériques découle de la capacité à paramétrer des aspects du monde et de la vie humaine qui n'avaient encore jamais été quantifiés. On peut qualifier ce processus de **« mise en données » (datafication)**. 
 
-> […] “La mise en données désigne autre chose que la numérisation, laquelle consiste à traduire un contenu analogique - texte, film, photographie - en une séquence de 1 et de 0 lisible par un ordinateur. Elle se réfère à une action bien plus vaste, et aux implications encore insoupçonnées : **numériser non plus des documents, mais tous les aspects de la vie**.”
+&gt; […] “La mise en données désigne autre chose que la numérisation, laquelle consiste à traduire un contenu analogique - texte, film, photographie - en une séquence de 1 et de 0 lisible par un ordinateur. Elle se réfère à une action bien plus vaste, et aux implications encore insoupçonnées : **numériser non plus des documents, mais tous les aspects de la vie**.”
 
 .footnote[[Kenneth Cukier, “Mise en données du monde, le déluge numérique”](https://www.monde-diplomatique.fr/2013/07/CUKIER/49318)]
 ---
@@ -89,13 +93,13 @@ comme la hauteur de la Tour Eiffel. ]
 # La "nombrification" du monde
 .pull-left[![](https://cefres.hypotheses.org/files/2017/06/couv_REY.jpg)]
 .pull-right[
-> La numérisation ne serait pas survenue sans une "nombrification" préalable qui consiste à quantifier de plus en plus d'aspects de notre expérience du réel.
+&gt; La numérisation ne serait pas survenue sans une "nombrification" préalable qui consiste à quantifier de plus en plus d'aspects de notre expérience du réel.
 
 
-> **Au commencement était le verbe, il semble à la fin que tout devient nombre.**
+&gt; **Au commencement était le verbe, il semble à la fin que tout devient nombre.**
 
 
-> Personne ne saurait parler sérieusement de l'état de la société et discuter politique sans se référer aux informations quantitatives. ]
+&gt; Personne ne saurait parler sérieusement de l'état de la société et discuter politique sans se référer aux informations quantitatives. ]
 
 
 ---
@@ -107,14 +111,14 @@ comme la hauteur de la Tour Eiffel. ]
 - L'inspiration de la cybernétique (N. Wiener) : objets techniques et êtres humains constituent un même système sociotechhnique, régulé par l'information
 
 
-- Exemple de Steward Brand, fondateur du _Whole Earth Catalog_ puis de Wired => ["Forest Gump de l'Internet"](https://questionsdecommunication.revues.org/8619)]
+- Exemple de Steward Brand, fondateur du _Whole Earth Catalog_ puis de Wired =&gt; ["Forest Gump de l'Internet"](https://questionsdecommunication.revues.org/8619)]
 .pull-right[
 ![ ](./img/wholeearthcatalog.jpg)]
 
 ---
 class:middle
 # Le nouveau positivisme des données
-> If you asked me to describe the rising philosophy of the day, I’d say it is data-ism. 
+&gt; If you asked me to describe the rising philosophy of the day, I’d say it is data-ism. 
 We now have the ability to gather huge amounts of data. This ability seems to carry with it certain cultural assumptions — that everything that can be measured should be measured; that data is a transparent and reliable lens that allows us to filter out emotionalism and ideology; that data will help us do remarkable things — like foretell the future.
 
 
@@ -136,13 +140,13 @@ Les données peuvent être des :
 ---
 ## Etymologie
 
-Latin : _dare_ (donner) > _datum_ (donné) > _data_ (donnés)
-<br/><br/><br/>
+Latin : _dare_ (donner) &gt; _datum_ (donné) &gt; _data_ (donnés)
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
 Ce qui est évident, va de soi, est accepté sans discussion
 
-<br/><br/>
+&lt;br/&gt;&lt;br/&gt;
 
-> From its first vernacular formulation, the existence of a datum has been independent of any
+&gt; From its first vernacular formulation, the existence of a datum has been independent of any
 consideration of corresponding ontological truth. When a fact is proven false, it ceases
 to be a fact. False data is data nonetheless.
 
@@ -159,9 +163,9 @@ Renvoie à des expériences, des collectes d'éléments.]
 ---
 ## "Raw data" is an oxymoron
 .pull-left[
-> Data are always already “cooked” and never entirely “raw.”
+&gt; Data are always already “cooked” and never entirely “raw.”
 
-> Data need to be imagined _as_ data to exist and function as such, and the imagination of data entails an interpretive base.]
+&gt; Data need to be imagined _as_ data to exist and function as such, and the imagination of data entails an interpretive base.]
 .pull-right[
 ![](https://mitpress.mit.edu/sites/default/files/9780262518284_0.jpg)]
 
@@ -172,7 +176,7 @@ Renvoie à des expériences, des collectes d'éléments.]
 ![](img/kitchin.jpg)
 ]
 .pull-right[
-> **Data are commonly understood to be the raw material produced by abstracting the world into
+&gt; **Data are commonly understood to be the raw material produced by abstracting the world into
 categories, measures and other representational forms – numbers, characters, symbols, images,
 sounds, electromagnetic waves, bits – that constitute the building blocks from which information and knowledge are created.**
 
@@ -180,18 +184,18 @@ sounds, electromagnetic waves, bits – that constitute the building blocks from
 ⏺ enregistrabilité
 
 
-🏗> briques de base ("buildings blocks")]
+🏗&gt; briques de base ("buildings blocks")]
 
 ---
 class:middle
 
 # Données ou obtenues ? *Data or capta* ?
 
-> Technically, then, what we understand as data are actually capta (derived from the Latin capere, meaning ‘to take’); those units of data that have been selected and harvested from the sum of all potential data.
+&gt; Technically, then, what we understand as data are actually capta (derived from the Latin capere, meaning ‘to take’); those units of data that have been selected and harvested from the sum of all potential data.
 
-[Kitchin, 2014](https://books.google.fr/books?hl=fr&lr=&id=GfOICwAAQBAJ&oi=fnd&pg=PP1&dq=kitchin+data+revolution&ots=pcyfMTZh-V&sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&q=kitchin%20data%20revolution&f=false)
+[Kitchin, 2014](https://books.google.fr/books?hl=fr&amp;lr=&amp;id=GfOICwAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=kitchin+data+revolution&amp;ots=pcyfMTZh-V&amp;sig=dQyPTL3AIN_4RdWvtBFw4VjdAa4#v=onepage&amp;q=kitchin%20data%20revolution&amp;f=false)
 
-> « Décidément, on ne devrait jamais parler de “données”, mais toujours d’“obtenues”. » 
+&gt; « Décidément, on ne devrait jamais parler de “données”, mais toujours d’“obtenues”. » 
 
 Bruno Latour, 1993
 
@@ -209,7 +213,7 @@ class:center, middle, inverse
   + intervalles (température en degrés Celsius)
   + ratio (taille en cm)
 
-- Données qualitatives : non numérique => texte, image, vidéo, son, musique...
+- Données qualitatives : non numérique =&gt; texte, image, vidéo, son, musique...
   + peut être convertie en données quantitatives
   + mais comment ?
   + risque de perdre la richesse des données originales
@@ -241,11 +245,11 @@ Données non structurées : pas de structure commune identifiable
 ---
 ## Données capturées et données échappées
 
-- Données capturées : observation, enquête, expérimentation, prise de notes, senseurs... => intention de générer des données
+- Données capturées : observation, enquête, expérimentation, prise de notes, senseurs... =&gt; intention de générer des données
 - Données échappées : sous-produit d'un engin ou d'un système dont la fonction première est autre
 - Données transitoires : échappées qui ne sont jamais examinées, transformées ou analysées
 
-=> brutes car non converties ou combinées
+=&gt; brutes car non converties ou combinées
 
 ## Données dérivées
 
@@ -274,7 +278,7 @@ class:middle
 
 ## Au commencement était la statistique
 
-- une vieille science (18e siècle), pour aider les États (_Statistik_) mais aussi des entreprises privées (au départ, les assureurs => actuariat)
+- une vieille science (18e siècle), pour aider les États (_Statistik_) mais aussi des entreprises privées (au départ, les assureurs =&gt; actuariat)
 
 - fondée sur les probabilités
 
@@ -286,12 +290,12 @@ class:middle
 class:middle
 ## Data science : les nouvelles statistiques ?
 
-> I keep saying the sexy job in the next ten years will be statisticians. People think I’m joking, but who would’ve guessed that computer engineers would’ve been the sexy job of the 1990s?
+&gt; I keep saying the sexy job in the next ten years will be statisticians. People think I’m joking, but who would’ve guessed that computer engineers would’ve been the sexy job of the 1990s?
 
 Hal Varian (Chief economist, Google), The McKinsey Quarterly, January 2009
 
 
-> “I think data-scientist is a sexed up term for a statistician”
+&gt; “I think data-scientist is a sexed up term for a statistician”
 
 [Nate Silver](http://www.statisticsviews.com/details/feature/5133141/Nate-Silver-What-I-need-from-statisticians.html)
 ---
@@ -341,14 +345,14 @@ class:center, middle
 
 ## All models are wrong, some are useful
 
-> Since all models are wrong the scientist cannot obtain a "correct" one by excessive elaboration. On the contrary following William of Occam he should seek an economical description of natural phenomena. 
+&gt; Since all models are wrong the scientist cannot obtain a "correct" one by excessive elaboration. On the contrary following William of Occam he should seek an economical description of natural phenomena. 
 
 [George Box](https://dx.doi.org/10.1080%2F01621459.1976.10480949)
 
 ---
 ## Et le machine learning alors ?
 
-- Fondamentalement, modélisation et machine learning ne sont pas différents, du point de vue d'un statisticien : modéliser un $Y$ en fonction d'un vecteur de $X_i$
+- Fondamentalement, modélisation et machine learning ne sont pas différents, du point de vue d'un statisticien : modéliser un `\(Y\)` en fonction d'un vecteur de `\(X_i\)`
 
 - une des différences principales toutefois : veut-on prévoir ou comprendre/analyser ?
 
@@ -405,9 +409,9 @@ Finalement, les descendants actuels du perceptron font toujours la même chose. 
 
 Paradigme du [_tidy data_](http://vita.had.co.nz/papers/tidy-data.pdf) (Hadley Wickham)
 
-> “Happy families are all alike; every unhappy family is unhappy in its own way.” – Leon Tolstoï 
+&gt; “Happy families are all alike; every unhappy family is unhappy in its own way.” – Leon Tolstoï 
 
-> “Tidy datasets are all alike, but every messy dataset is messy in its own way.” – Hadley Wickham
+&gt; “Tidy datasets are all alike, but every messy dataset is messy in its own way.” – Hadley Wickham
 
 **Principes du *tidy data* **
 - chaque variable correspond à une colonne
@@ -460,7 +464,7 @@ Soutien aux startups, rationnalisation de la politique d’achat par l’accès 
 # L'obsession du volume de données
 .pull-left[
 **Quelques chiffres omniprésents** : 
-- le volume de données produit double tous les 3 ans (Gantz & Reisel 2011)
+- le volume de données produit double tous les 3 ans (Gantz &amp; Reisel 2011)
 - 90% des données créées dans les deux dernières années (IBM 2012)
 - 40% : croissance annuelle de la production de données (Maniyka et al. 2011) 
 
@@ -496,7 +500,7 @@ Kitchin (2014) résume les promesses du big data :
 -
  RDF / SPARQL
 -
- wikidata => http://projetjourdain.org/network/index.html]
+ wikidata =&gt; http://projetjourdain.org/network/index.html]
 
 .pull-right[
 ![](http://linkeddata.org/static/images/lod-datasets_2009-07-14_cropped.png)
@@ -504,11 +508,11 @@ Kitchin (2014) résume les promesses du big data :
 ---
 ## API
 .pull-left[
-- Application programming interface => un programme vu de la surface
+- Application programming interface =&gt; un programme vu de la surface
 
 - les machines parlent aux machines
 
-- donnée dynamique => ouverture potentiellement limitée et contrôlée 
+- donnée dynamique =&gt; ouverture potentiellement limitée et contrôlée 
 
 - un exemple : [overpass turbo](https://overpass-turbo.eu/)]
 .pull-right[
@@ -520,3 +524,32 @@ class:inverse,center, middle
 ---
 # Un ROTI avant le déjeuner
 [![](img/roti.png)](http://www.strawpoll.me/13484643)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('showSlide', function (slide) {setTimeout(function() {window.dispatchEvent(new Event('resize'));}, 100)});</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
